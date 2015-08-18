@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
+    color: #757575;
     background-color: {{ site.color.primary-dark }};
 }
 
@@ -51,6 +51,10 @@ a {
     transition: all .2s ease-in-out;
 }
 
+.thumb {
+    margin-bottom: 30px;
+}
+
 a:hover,
 a:focus {
     text-decoration: none;
@@ -66,7 +70,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: {{ site.color.primary-dark }};
+    background-color:{{ site.color.nav_color}};
 }
 
 .navbar-custom .navbar-brand {
@@ -123,7 +127,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: {{ site.color.primary-dark }};
+        background-color: {{ site.color.nav_color }};
     }
 
     .navbar-custom.top-nav-collapse {
@@ -252,9 +256,9 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.registration-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 150px 0;
     color: #fff;
     background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
@@ -263,6 +267,7 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
+
 
 #map {
     width: 100%;
