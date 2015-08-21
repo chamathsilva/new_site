@@ -38,23 +38,23 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 15,
+        zoom: 17,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(40.6700, -73.9400), // New York
+        center: new google.maps.LatLng(6.9184, 79.8628), // New York
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
-        scrollwheel: false,
-        draggable: false,
+        scrollwheel: true,
+        draggable: true
 
-        // How you would like to style the map. 
+        // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
-        styles: [{
+        /*styles: [{
             "featureType": "water",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                //"color": "#000000"
             }, {
                 "lightness": 17
             }]
@@ -62,7 +62,7 @@ function init() {
             "featureType": "landscape",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                //"color": "#000000"
             }, {
                 "lightness": 20
             }]
@@ -70,7 +70,7 @@ function init() {
             "featureType": "road.highway",
             "elementType": "geometry.fill",
             "stylers": [{
-                "color": "#000000"
+                //"color": "#000000"
             }, {
                 "lightness": 17
             }]
@@ -78,7 +78,7 @@ function init() {
             "featureType": "road.highway",
             "elementType": "geometry.stroke",
             "stylers": [{
-                "color": "#000000"
+                //"color": "#000000"
             }, {
                 "lightness": 29
             }, {
@@ -88,7 +88,7 @@ function init() {
             "featureType": "road.arterial",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                //"color": "#000000"
             }, {
                 "lightness": 18
             }]
@@ -96,7 +96,7 @@ function init() {
             "featureType": "road.local",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                //"color": "#000000"
             }, {
                 "lightness": 16
             }]
@@ -104,7 +104,7 @@ function init() {
             "featureType": "poi",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                //"color": "#000000"
             }, {
                 "lightness": 21
             }]
@@ -113,7 +113,7 @@ function init() {
             "stylers": [{
                 "visibility": "on"
             }, {
-                "color": "#000000"
+                //"color": "#000000"
             }, {
                 "lightness": 16
             }]
@@ -122,7 +122,7 @@ function init() {
             "stylers": [{
                 "saturation": 36
             }, {
-                "color": "#000000"
+                //"color": "#000000"
             }, {
                 "lightness": 40
             }]
@@ -135,7 +135,7 @@ function init() {
             "featureType": "transit",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                //"color": "#000000"
             }, {
                 "lightness": 19
             }]
@@ -143,7 +143,7 @@ function init() {
             "featureType": "administrative",
             "elementType": "geometry.fill",
             "stylers": [{
-                "color": "#000000"
+                //"color": "#000000"
             }, {
                 "lightness": 20
             }]
@@ -151,13 +151,13 @@ function init() {
             "featureType": "administrative",
             "elementType": "geometry.stroke",
             "stylers": [{
-                "color": "#000000"
+                //"color": "#000000"
             }, {
                 "lightness": 17
             }, {
                 "weight": 1.2
             }]
-        }]
+        }]*/
     };
 
     // Get the HTML DOM element that will contain your map 
@@ -169,7 +169,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(40.6700, -73.9400);
+    var myLatLng = new google.maps.LatLng(6.9184, 79.8628);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
