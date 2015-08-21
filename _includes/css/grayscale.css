@@ -379,3 +379,6 @@ body {
   margin-right: 20px;
   text-align: center;
 }
+
+.btn-primary{background-color: {{ site.color.nav_color}}; border-color:{{ site.color.nav_color}};}
+.btn-primary:hover{background-color:#009884; border-color:#009884}
