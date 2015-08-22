@@ -392,9 +392,9 @@ body {
 
 .btn-primary{background-color: #00BFA5; border-color:#00BFA5;}
 .btn-primary:hover{background-color:#009884; border-color:#009884}
-
+/*
 @media (max-width: 600px) { 
         h4 {
           font-size: 13px;
         }
-    }
+    }*/

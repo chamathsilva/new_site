@@ -387,9 +387,9 @@ body {
 
 .btn-primary{background-color: {{ site.color.nav_color}}; border-color:{{ site.color.nav_color}};}
 .btn-primary:hover{background-color:#009884; border-color:#009884}
-
+/*
 @media (max-width: 600px) { 
         h4 {
           font-size: 13px;
         }
-    }
+    }*/

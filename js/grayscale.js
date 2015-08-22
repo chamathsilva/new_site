@@ -186,8 +186,11 @@ var target_date = new Date('sep, 19, 2015').getTime();
 var days, hours, minutes, seconds;
  
 // get tag element
-var countdown = document.getElementById('countdown');
- 
+var countdown1 = document.getElementById('countdown1');
+var countdown2 = document.getElementById('countdown2');
+var countdown3 = document.getElementById('countdown3');
+var countdown4 = document.getElementById('countdown4');
+
 // update the tag with id "countdown" every 1 second
 setInterval(function () {
  
@@ -206,8 +209,10 @@ setInterval(function () {
     seconds = parseInt(seconds_left % 60);
      
     // format countdown string + set tag value
-    countdown.innerHTML = '<span class="days">' + days +  ' <b>Days</b></span> <span class="hours">' + hours + ' <b>Hours</b></span> <span class="minutes">'
-    + minutes + ' <b>Minutes</b></span> <span class="seconds">' + seconds + ' <b>Seconds</b></span>';  
+    countdown1.innerHTML = '<span class="days">' + days +  ' <b>Days</b></span>' ;  
+    countdown2.innerHTML = '<span class="hours">' + hours + ' <b>Hours</b></span>';
+    countdown3.innerHTML = '<span class="minutes">' + minutes + ' <b>Minutes</b></span>';
+    countdown4.innerHTML = '<span class="seconds">' + seconds + ' <b>Seconds</b></span>'; 
  
 }, 1000);
 
