@@ -2,7 +2,7 @@
 title: AppClinic 2015
 email: AppClinic@compsoc.lk
 url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Computer Science Society of University of Colombo in collaboration with Google Developer Group Sri Lanka pompously adduces you the GDG Android App Clinic 2015. GDG Android App Clinic is an annual event which lay before for the undergraduates all over the country the opportunity of painting the innovativeness on the canvas of Android Games encouraged by the reviews, experiences and supportiveness of the industry experts on android platforms.  Our effort is to open the nation’s doors for a newer and an exciting tomorrow of ICT."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -24,3 +24,6 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+
+Computer Science Society of University of Colombo in collaboration with Google Developer Group Sri Lanka pompously adduces you the GDG Android App Clinic 2015. GDG Android App Clinic is an annual event which lay before for the undergraduates all over the country the opportunity of painting the innovativeness on the canvas of Android Games encouraged by the reviews, experiences and supportiveness of the industry experts on android platforms.  Our effort is to open the nation’s doors for a newer and an exciting tomorrow of ICT.
