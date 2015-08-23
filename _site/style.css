@@ -42,7 +42,7 @@ p {
 }
 
 .fa-angle-double-down {
-  color:#7ebf41;;
+  color:#242424;;
 }
 
 
@@ -82,7 +82,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color:#7ebf41;
+    background-color:#242424;
 }
 
 .navbar-custom .navbar-brand {
@@ -140,7 +140,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #7ebf41;
+        background-color: #242424;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -393,7 +393,7 @@ body {
   text-align: center;
 }
 
-.btn-primary{background-color: #7ebf41; border-color:#7ebf41;}
+.btn-primary{background-color: #242424; border-color:#242424;}
 .btn-primary:hover{background-color:#009884; border-color:#009884}
 /*
 @media (max-width: 600px) { 
