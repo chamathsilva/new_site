@@ -36,6 +36,9 @@ p {
     line-height: 1.5;
 }
 
+.fa-angle-double-down {
+  color:{{ site.color.nav_color}};;
+}
 
 
 
@@ -148,7 +151,7 @@ a:focus {
     text-align: center;
     color: #fff;
     background: url(img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-size:cover;
+    background-size:100% 100%;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: contain;
     -moz-background-size: cover;
