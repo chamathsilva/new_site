@@ -389,7 +389,7 @@ body {
 }
 
 .btn-primary{background-color: {{ site.color.nav_color}}; border-color:{{ site.color.nav_color}};}
-.btn-primary:hover{background-color:#009884; border-color:#009884}
+.btn-primary:hover{background-color:#000000; border-color:#000000}
 /*
 @media (max-width: 600px) { 
         h4 {
