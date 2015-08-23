@@ -150,7 +150,7 @@ a:focus {
     background: url(img/intro-bg.jpg) no-repeat bottom center scroll;
     background-size:cover;
     background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
+    -webkit-background-size: contain;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
